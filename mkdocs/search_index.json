@@ -1,0 +1,79 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "FTC hooajal 2015/16 Eestis\n\n\nK\u00e4esolev juhendmaterjal on koostatud abiks k\u00f5igile k\u00e4esoleval hooajal First Tech Challenge robootikav\u00f5istlusel osalejatele.\n\n\nKuna sellest hooajast alates kasutatakse FTC-l ka t\u00e4iesti uut platvormi (baseerudes Android operatsioonis\u00fcsteemiga nutitelefonidel), on m\u00f5istlik alustada riistvara ja tarkvara \u00fchendamise-paigaldamise ning seadistamise juhenditest.\n\n\nKui riistvara ning tarkvara paigas, saadki asuda reaalsete robotit juhtivate rakenduste loomise juurde.\n\n\nJ\u00f5udu t\u00f6\u00f6le!",
+            "title": "Sissejuhatus"
+        },
+        {
+            "location": "/#ftc-hooajal-201516-eestis",
+            "text": "K\u00e4esolev juhendmaterjal on koostatud abiks k\u00f5igile k\u00e4esoleval hooajal First Tech Challenge robootikav\u00f5istlusel osalejatele.  Kuna sellest hooajast alates kasutatakse FTC-l ka t\u00e4iesti uut platvormi (baseerudes Android operatsioonis\u00fcsteemiga nutitelefonidel), on m\u00f5istlik alustada riistvara ja tarkvara \u00fchendamise-paigaldamise ning seadistamise juhenditest.  Kui riistvara ning tarkvara paigas, saadki asuda reaalsete robotit juhtivate rakenduste loomise juurde.  J\u00f5udu t\u00f6\u00f6le!",
+            "title": "FTC hooajal 2015/16 Eestis"
+        },
+        {
+            "location": "/riistvara/",
+            "text": "FTC riistvaralahendus\n\n\nMehaanika\n\n\nFTC-l v\u00f5istlevad robotid baseeruvad Tetrix v\u00f5i Matrix mehaanikakomplektidel.\n\n\nElektroonika\n\n\nSel aastal on v\u00f5istkondade kasutada kaks uut moodulit: \ncore power distribution module\n ning \ncore legacy module\n, mille tootjaks on \nModern Robotics\n. Uute moodulite keskseks sideliideseks on USB. Lisaks neile moodulitele on tegelikult olemas veel ka USB-sideliidesega alalisvoolu- ning servomootorite moodulid ja samuti uus sensorite kasutamise moodul, kuid kulude kokkuhoiu huvides on m\u00f5istlik l\u00e4bi \nlegacy\n mooduli kasutada hoopiski Lego NXT/EV3 platvormi sensoreid ning nendega samu \u00fchendusviise kasutavaid HiTechnic mootorikontrollereid (nii alalisvoolu- kui ka servomootorite tarbeks).",
+            "title": "Riistvara"
+        },
+        {
+            "location": "/riistvara/#ftc-riistvaralahendus",
+            "text": "",
+            "title": "FTC riistvaralahendus"
+        },
+        {
+            "location": "/riistvara/#mehaanika",
+            "text": "FTC-l v\u00f5istlevad robotid baseeruvad Tetrix v\u00f5i Matrix mehaanikakomplektidel.",
+            "title": "Mehaanika"
+        },
+        {
+            "location": "/riistvara/#elektroonika",
+            "text": "Sel aastal on v\u00f5istkondade kasutada kaks uut moodulit:  core power distribution module  ning  core legacy module , mille tootjaks on  Modern Robotics . Uute moodulite keskseks sideliideseks on USB. Lisaks neile moodulitele on tegelikult olemas veel ka USB-sideliidesega alalisvoolu- ning servomootorite moodulid ja samuti uus sensorite kasutamise moodul, kuid kulude kokkuhoiu huvides on m\u00f5istlik l\u00e4bi  legacy  mooduli kasutada hoopiski Lego NXT/EV3 platvormi sensoreid ning nendega samu \u00fchendusviise kasutavaid HiTechnic mootorikontrollereid (nii alalisvoolu- kui ka servomootorite tarbeks).",
+            "title": "Elektroonika"
+        },
+        {
+            "location": "/tarkvara/",
+            "text": "FTC tarkvaralahendus\n\n\nPlatvorm\n\n\nN\u00f5uded riistvarale\n\n\nArendusvahendid\n\n\nGraafiline programmeerimine\n\n\nProgrammeerimine keeles Java",
+            "title": "Tarkvara"
+        },
+        {
+            "location": "/tarkvara/#ftc-tarkvaralahendus",
+            "text": "",
+            "title": "FTC tarkvaralahendus"
+        },
+        {
+            "location": "/tarkvara/#platvorm",
+            "text": "",
+            "title": "Platvorm"
+        },
+        {
+            "location": "/tarkvara/#nouded-riistvarale",
+            "text": "",
+            "title": "N\u00f5uded riistvarale"
+        },
+        {
+            "location": "/tarkvara/#arendusvahendid",
+            "text": "",
+            "title": "Arendusvahendid"
+        },
+        {
+            "location": "/tarkvara/#graafiline-programmeerimine",
+            "text": "",
+            "title": "Graafiline programmeerimine"
+        },
+        {
+            "location": "/tarkvara/#programmeerimine-keeles-java",
+            "text": "",
+            "title": "Programmeerimine keeles Java"
+        },
+        {
+            "location": "/ylesanne/",
+            "text": "V\u00f5istlus\u00fclesanne",
+            "title": "V\u00f5istlus\u00fclesanne"
+        },
+        {
+            "location": "/ylesanne/#voistlusulesanne",
+            "text": "",
+            "title": "V\u00f5istlus\u00fclesanne"
+        }
+    ]
+}
