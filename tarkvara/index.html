@@ -115,10 +115,41 @@
 
 <h1 id="ftc-tarkvaralahendus">FTC tarkvaralahendus</h1>
 <h2 id="platvorm">Platvorm</h2>
+<p>Sellest hooajast baseerub FTC-l võistlevate robotite nii autonoomne kui ka puldiga juhtimine Android platvormi telefonidel.</p>
 <h3 id="nouded-riistvarale">Nõuded riistvarale</h3>
+<p>Mehaanika- ja elektroonikaplatvorm on kirjeldatud lehel <a href="../riistvara/">riistvara</a>. Sellele lisaks on vaja kasutada nii roboti peal kui ka lisaks sellele võistlejate juures (koos mängupultidega) Android operatsioonisüsteemiga telefone.</p>
+<p>Telefonidele kehtivad järgnevad nõuded:</p>
+<ul>
+<li>USB OTG tugi</li>
+<li>USB OTG ühenduses piisava voolutugevuse pakkumine USB HUB-ile ja mängupultidele   (ainult juhtpuldi rollis oleval telefonil)</li>
+<li>WiFi Direct tugi</li>
+<li>Vähemalt Android 4.0</li>
+<li>Logitech Gamepad F310 tugi või Xbox kontrolleri tugi</li>
+</ul>
+<p>Korraldajate poolt antakse osalevatele võistlejatele Google/LG Nexus 5 telefonid, mis võiks nõuetele suuremas osas vastata. Puudujäägid esinevad juhtpuldi draiverite juures, kus tuleb arvestada, et puldi tagumises servas olevad <em>trigger</em> nupud ei toimi ning parempoolne <em>joystick</em> tuleb koodis defineerida hoopis nendesamade <em>trigger</em> nuppudena.</p>
 <h2 id="arendusvahendid">Arendusvahendid</h2>
 <h3 id="graafiline-programmeerimine">Graafiline programmeerimine</h3>
-<h3 id="programmeerimine-keeles-java">Programmeerimine keeles Java</h3></div>
+<p>Graafiliselt on võimalik kontrollerile luua tarkvara MIT App Inventor Android rakenduse loomise arendusvahendiga. Traditsiooniline <a href="http://appinventor.mit.edu/explore/get-started">App Inventor</a> kontrollertarkvara loomiseks vajalikke blokke ei sisalda, seetõttu tuleb FTC tarbeks loodud App Inventorit sisaldav virtuaalmasin ise alla laadida ning oma arvutis käima panna.</p>
+<p>Kui virtuaalmasin käib, saab brauseris juhendites näidatud aadressile minnes ligi sobivale App Inventor keskkonnale, mille abil on võimalik luua robotit juhtivaid programme.</p>
+<p>Kui App Inventor ei ole varasemast osalejatele tuttav, on mõistlik alustada just mõne pisema tavapärase telefonirakenduse loomisest tavalise App Inventoriga (FTC erilahenduse asemel). Selleks on võimalik kasutada näiteks <a href="http://www.nutilabor.ee/mobiiliappide-valmistamine/">Nutilabori materjale</a>.</p>
+<h4 id="kasulikke-viiteid">Kasulikke viiteid</h4>
+<ul>
+<li><a href="http://frc-events.firstinspires.org/FTCImages/2015">FTC-spetsiifilise App Inventori virtuaalmasina allalaadimine ning juhendmaterjalid</a><br />
+(ingl k juhendid ning virtuaalmasinate failid nii Windowsi, Linuxi kui ka OS X tarbeks)</li>
+</ul>
+<h3 id="programmeerimine-keeles-java">Programmeerimine keeles Java</h3>
+<p>Tekstiliseks programmeerimiseks kasutatakse ametlikku Android platvormi arenduskeskkonda <em>Android Studio</em>, mis põhineb firma Jetbrains tarkvaral <em>IntelliJ IDEA</em>.</p>
+<p>Loomaks sellega just meile sobilikke robotikontrollereid, tuleb kasutada allpool viidatud projektipõhja, mis sisaldab endas ka FTC ametlikku teeki - just selle abil on kontrolleril võimalik suhelda juhtpuldi rollis telefoniga ning samal ajal juhtida USB kaudu ühendatud mooduleid.</p>
+<p>Taaskord enne robotile kontrollerite valmistamist tasub uurida tavaliste rakenduste loomist, kui see valdkond varem tuttav ei ole.</p>
+<h4 id="kasulikke-viiteid_1">Kasulikke viiteid</h4>
+<ul>
+<li><a href="https://github.com/ftctechnh/ftc_app">Projekti põhi robotile kontrolleri loomiseks</a>  </li>
+<li><a href="http://swerverobotics.org/wp/index.php/2015/10/14/swerve-video-tutorial-basic-teleop-program/">Videojuhend lihtsa kaugjuhitava kontrolleri loomiseks</a> (ingl k)  </li>
+<li><a href="http://swerverobotics.org/wp/index.php/resources/ftc-programming/swerve-ftc-library/">Swerve FTC library</a> (ingl k)<br />
+Huvitav lisateek java-s lihtsamaks kontrollerite loomiseks.</li>
+<li><a href="http://ftckey.com/apis/ftc/">API dokumentatsioon</a> (ingl k)<br />
+Üksikasjalik kõigi kasutada olevate FTC teegi klasside dokumentatsioon.</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
